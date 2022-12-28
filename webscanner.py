@@ -17,7 +17,7 @@ scanID = zap.ajaxSpider.scan(target)
 
 timeout = time.time() + 60*2   # 2 minutes from now
 # Loop until the ajax spider has finished or the timeout has exceeded
-while zap.ajaxSpider.status == 'running':
+while zap.ajaxSpider.status == 'running . . .':
     if time.time() > timeout:
         break
     print('Status: ' + zap.ajaxSpider.status)

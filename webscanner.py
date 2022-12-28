@@ -3,7 +3,7 @@ import time
 from zapv2 import ZAPv2
 
 # The URL of the application to be tested
-target = 'https://preprod.gramediaedukasi.id'
+target = 'https://yoururl/'
 # Change to match the API key set in ZAP, or use None if the API key is disabled
 apiKey = 'va102dj53le10nl12c7ec1d5em'
 

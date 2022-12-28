@@ -2,9 +2,9 @@
 import time
 from zapv2 import ZAPv2
 
-# The URL of the application to be tested
-target = 'https://yoururl/'
-# Change to match the API key set in ZAP, or use None if the API key is disabled
+# Target URL
+target = 'https://maresto.id/'
+# Silahkan Ganti APIKey Sesuai dengan apps OWASP ZAP
 apiKey = 'va102dj53le10nl12c7ec1d5em'
 
 # By default ZAP API client will connect to port 8080

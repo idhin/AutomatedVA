@@ -1,3 +1,3 @@
 # AutomatedVA
 
-- Tools ini mengacu pada OWASP ZAP
+- Tools ini mengacu pada [ZAP Proxy](https://www.zaproxy.org/)

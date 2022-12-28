@@ -20,11 +20,10 @@ timeout = time.time() + 60*2   # 2 minutes from now
 while zap.ajaxSpider.status == 'running':
     if time.time() > timeout:
         break
-    print('Ajax Spider status' + zap.ajaxSpider.status)
+    print('Status: ' + zap.ajaxSpider.status)
     time.sleep(2)
 
-print('Ajax Spider completed')
+print('Running Completed')
 ajaxResults = zap.ajaxSpider.results(start=0, count=10)
-# If required perform additional operations with the Ajax Spider results
 
 # TODO: Start scanning the application to find vulnerabilities
